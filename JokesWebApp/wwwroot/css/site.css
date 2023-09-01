@@ -17,6 +17,75 @@ html {
   min-height: 100%;
 }
 
+/*Menu bar*/
+.header_logo{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    word-break: break-all;
+    font-family: 'Poiret One', cursive;
+    padding: 0px 20px 0px 20px;
+}
+
+.nav-item {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.body_container {
+    max-width: 100%;
+    padding: 0 0 0 0;
+    padding-top: 0px;
+}
+
+/*Body of the site*/
 body {
   margin-bottom: 60px;
+}
+
+.page-title-1 {
+    font-family: 'Poiret One', cursive;
+    padding: 0 0 0 0;
+    font-size: 5rem;
+    color: black;
+}
+
+.page-title-2 {
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    padding: 0 0 0 0;
+    font-size: 5rem;
+    color: black;
+}
+
+.page-main-text-1 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    padding: 0 0 0 0;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.body_img {
+    padding: 20px 20px 20px 20px;
+}
+
+.background {
+    max-width: 100%;
+    padding: 0 0 0 0;
+}
+
+/*Footer Section*/
+.footer_container {
+    max-width: 100%;
+    padding: 0 0 0 0;
+    text-align: center;
 }
